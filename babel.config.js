@@ -16,24 +16,6 @@ module.exports = {
     '@babel/plugin-proposal-optional-chaining',
     '@babel/plugin-proposal-nullish-coalescing-operator',
     '@babel/plugin-syntax-dynamic-import',
-    [
-      'import',
-      {
-        libraryName: '@/components',
-        libraryDirectory: '',
-        camel2DashComponentName: false
-      },
-      'component'
-    ],
-    [
-      'import',
-      {
-        libraryName: '@/hooks',
-        libraryDirectory: '',
-        camel2DashComponentName: false
-      },
-      'hooks'
-    ],
   ],
   presets: [
     [
