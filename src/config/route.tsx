@@ -1,10 +1,12 @@
 import { lazy } from 'react'
 
-const Main = lazy(() => import('@/pages/main'))
-
 export default [
   {
     path: '/',
-    component: Main
+    component: lazy(() => import('@/pages/main'))
+  },
+  {
+    path: '/demo',
+    component: lazy(() => import('@/pages/main/demo'))
   }
 ]
